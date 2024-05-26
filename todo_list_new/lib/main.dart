@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
+//models
 class TodoListItem {
   final String title;
   final Color color;
@@ -29,7 +29,7 @@ class TodoListItem {
   TodoListItem({required this.title, required this.color});
 }
 
-
+//pages
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -136,6 +136,7 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
+//widgets
 class AddDialog extends StatelessWidget {
   final Function onPressed;
   final TextEditingController controller;
